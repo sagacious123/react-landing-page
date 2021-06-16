@@ -1,0 +1,13 @@
+.cards-section {
+  padding: 60px 0;
+}
+.cards-section h1 {
+  text-align: center;
+  margin-bottom: 2.6rem;
+}
+.cards-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}

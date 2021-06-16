@@ -1,0 +1,41 @@
+.btn-outline {
+  border: 1px solid white;
+  padding: 10px 16px;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  transition: .4s;
+  /* margin: 0 16px; */
+}
+.btn-primary {
+  background-color: white;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: .4s;
+  color: rgb(2, 2, 34);
+  border: 1px solid white;
+}
+.btn-outline:hover {
+  background-color: white;
+  color: rgb(2, 2, 34);
+}
+.btn-primary:hover {
+  background:  transparent;
+  color: white;
+}
+.btn-medium {
+  padding: 8px 20px;
+  font-size: 18px;
+}
+
+.btn-large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+@media(max-width: 960px) {
+  .btn-large {
+    padding: 10px 22px;
+    font-size: 16px;
+  }
+}
